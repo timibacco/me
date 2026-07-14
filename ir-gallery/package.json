@@ -1,0 +1,14 @@
+{
+  "name": "ir-gallery",
+  "version": "1.0.0",
+  "description": "Integrated SQLite Information Retrieval system for graphics and design history",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "init-db": "node scripts/init-db.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.8.1",
+    "express": "^4.19.2"
+  }
+}
